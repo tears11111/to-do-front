@@ -1,1 +1,2 @@
-# to-do-front
+Run to-do list via terminal -> npm run start
+
