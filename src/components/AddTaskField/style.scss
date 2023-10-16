@@ -1,0 +1,41 @@
+.todo-list__add-task-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.add-task {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  &__button {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    font-size: 17px;
+    padding: 5px 35px;
+  }
+}
+
+.task {
+  &-enter-title {
+    margin-bottom: 10px;
+    &__description {
+      margin: 0px;
+    }
+  }
+
+  &-enter-text {
+    margin-bottom: 10px;
+    &__description {
+      margin: 0px;
+    }
+  }
+
+  &-write-text {
+    resize: none;
+    width: 170px;
+  }
+}
